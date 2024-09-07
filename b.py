@@ -53,7 +53,7 @@ def load_logged_in_state():
         page.wait_for_timeout(10000)
 
         chat_selector = "#MiddleColumn > div.messages-layout > div.Transition > div > div.MessageList.custom-scroll.with-default-bg.scrolled"
-        scroll_duration = 6
+        scroll_duration = 60
         scroll_pause_time = 0.0
         start_time = time.time()
 
