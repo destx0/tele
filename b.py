@@ -82,7 +82,7 @@ def load_logged_in_state():
         # Write the extracted peer IDs to the output file
         with open("output.txt", "w", encoding="utf-8") as output_file:
             for peer_id in peer_ids:
-                output_file.write(f"https://web.telegram.org/a/#{peer_id}\n")
+                output_file.write(f"{peer_id}\n")
 
 
 load_logged_in_state()
